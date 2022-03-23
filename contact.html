@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <title>Halli Bentley's Portfolio</title>
+    <link rel="shortcut icon" href="https://www.wikipedia.org/static/favicon/wikipedia.ico">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.production.css">
+  </head>
+  <body>
+    <div>
+      <header class="page-header">
+        <img class="page-header__item" src="http://via.placeholder.com/200x70" alt="logo">
+        <nav class="page-header__item main-navigation">
+          <ul role="menubar" class="navigation-list">
+            <li role="presentation">
+              <a href="index.html" role="menuitem" class="navigation-list__item"
+              >Home</a>
+            </li>
+            <li role="presentation">
+              <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
+            </li>
+            <li role="presentation">
+              <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+            </li>
+            <li role="presentation">
+              <a href="contact.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <h1>Contact</h1>
+      <form action="" method="post">
+        <label for="email">E-mail: </label>
+        <input type="email" id="email" required>
+
+        <label for="tel">Telephone: </label>
+        <input type="tel" id="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+
+        <label for="message">Message: </label>
+        <textarea maxlength="240" required id="message"></textarea>
+        <input type="submit" value="Send message">
+      </form>
+      <footer>
+        Halli Bentley<br>
+        118 Moss Rd.<br>
+        Westerville, OH 43082<br>
+        <br>
+        Tel <a href="tel:+17407273931">+1(740)727-3931</a>
+        Skype <a href="skype:notreal.halli">Halli Bentley</a>
+        Email <a href="mailto:hallibentley@gmail.com">hallibentley@gmail.com</a>
+        <br>
+        <br>
+        <a href="mailto:hallibentley@gmail.com">Contact Me</a>
+      </footer>
+    </div>
+    <script src="js/tota11y.min.js"></script>
+  </body>
+</html>
